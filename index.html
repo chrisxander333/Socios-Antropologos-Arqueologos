@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arqueólogos & Antropólogos</title>
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <style type="text/css">
+			
+    * {
+      margin:0px;
+      padding:0px;
+    }
+    
+    #header {
+      margin:auto;
+      width:500px;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    ul, ol {
+      list-style:none;
+    }
+    
+    .nav > li {
+      float:left;
+    }
+    
+    .nav li a {
+      background-color:#000;
+      color:#fff;
+      text-decoration:none;
+      padding:10px 12px;
+      display:block;
+    }
+    
+    .nav li a:hover {
+      background-color:#434343;
+    }
+    
+    .nav li ul {
+      display:none;
+      position:absolute;
+      min-width:140px;
+    }
+    
+    .nav li:hover > ul {
+      display:block;
+    }
+    
+    .nav li ul li {
+      position:relative;
+    }
+    
+    .nav li ul li ul {
+      right:-140px;
+      top:0px;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <div class="menu-btn">
+    <i class="fas fa-bars fa-2x"></i>
+  </div>
+
+  <div class="container">
+    <!-- Navigation -->
+    <nav class="nav-main">
+      <!-- Brand -->
+      <img src="img/WhatsApp Image 2020-05-27 at 5.34.26 PM.jpeg"  alt="TechNews Logo" class="nav-brand">
+      <!-- Left Nav -->
+      <ul class="nav-menu">
+        <li>
+          <a href="https://www.youtube.com/channel/UCmeQ-MciDYuIYcqESqnl07A?view_as=subscriber" target="_blank" >Website</a>
+        </li>
+        <div id="header">
+          <ul class="nav">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="">Temas</a>
+              <ul>
+                <li><a href="">Arte</a></li>
+                <li><a href="">Antropología</a></li>
+                <li><a href="">Arqueología</a></li>
+                <li><a href="">Evolución</a></li>
+              </ul>
+
+            </li>
+            <li><a href="">Acerca de</a>
+              <ul>
+                <li><a href="">FUNDAR</a></li>
+                <li><a href="">Historia</a></li>
+                <li><a href="">SpaceX</a></li>
+                <li><a href="">Diversion</a></li>
+              </ul>
+            </li>
+            <li><a href="">Contacto</a></li>
+          </ul>
+        </div>
+
+        <li>
+          <a href="#">More</a>
+        </li>
+        
+      </ul>
+
+      <!-- Right Nav -->
+      <ul class="nav-menu-right">
+        <li>
+          <a href="#">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <hr>
+
+    <!-- SHOWCASE -->
+    <header class="showcase">
+      <h2>¿Qué es arte?</h2>
+      <p>El arte es la capacidad que tiene un hombre para representar sus sentimientos, emociones y percepciones acerca de sus vivencias y su creatividad.</p>
+        <div class="titulo_boton">
+          Ensayo sobre las Artes.
+        <a style='cursor: pointer;' onClick="muestra_oculta('contenido')" title="" class="boton_mostrar">Ver más</a>
+      </div>
+      
+      <div id="contenido">
+        <iframe src="https://docs.google.com/viewer?srcid=1BZ-i4MUUhlODIrwLBLACu-W3jNssrmvg&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="720px"></iframe>
+
+        </p>
+      </div>
+    </header>
+
+    <!-- NEWS CARDS -->
+    <div class="news-cards">
+      <div class="Arte">
+        <img src="img/Niños con perros de presa.jpg" alt="Artistico" />
+        <h3>Arte</h3>
+        <p>El arte ​ es entendido generalmente como cualquier actividad o producto realizado con una finalidad estética y también comunicativa, mediante la cual se expresan ideas, emociones y, en general, una visión del mundo, a través de diversos recursos, como los plásticos, lingüísticos, sonoros, corporales y mixtos.​
+        </p>
+        
+      </div>
+      <div>
+        <img src="img/multiculturalismo-2-1010x675.jpg" alt="" />
+        <h3>Antropología</h3>
+        <p>La antropología es la ciencia que estudia al ser humano de una forma integral, de sus características físicas como animales y de su cultura, que es el rasgo único no biológico.​
+        </p>
+       
+      </div>
+      <div>
+        <img src="img/ver-centroamerica-el-salvador-joya-ceren-02.jpg" alt="" />
+        <h3>Arqueología</h3>
+        <p>La arqueología es la ciencia que estudia los cambios que se producen desde las sociedades antiguas hasta las actuales, a través de restos materiales dispersos en la geografía y conservados a través del tiempo. La arqueología puede considerarse tanto una ciencia social como una rama de las humanidades.​​
+        </p>
+       
+      </div>
+      <div>
+        <img src="img/b2u1oa04-Portada.jpg" alt="" />
+        <h3>Evolución</h3>
+        <p>La evolución biológica es el conjunto de cambios en caracteres fenotípicos y genéticos de poblaciones biológicas a través de generaciones. Dicho proceso ha originado la diversidad de formas de vida que existen sobre la Tierra a partir de un antepasado común.​​
+        </p>
+       
+      </div>
+    </div>
+
+    <!-- Card Banner 1-->
+    <section class="cards-banner-one">
+      <div class="content">
+        <h2>National Geographic</h2>
+        <!-- lorem 20 -->
+        <p>National Geographic Magazine, posteriormente abreviada como National Geographic, es una entidad sin ánimo de lucro que funciona como el órgano de expresión oficial de la National Geographic Society de Estados Unidos. Su primera edición data de octubre de 1888, ​ nueve meses después de que la sociedad fuera fundada.</p>
+        <a href="https://www.nationalgeographic.com/" target="_blank" class="btn">Conoce más<i class="fas fa-chevron-right"></i></a>
+      </div>
+    </section>
+
+    <div style="text-align:center;" > 
+    <iframe width="720" height="480"; src="https://www.youtube.com/embed/oErIJKFuhG4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    
+    <!-- NEWS CARDS -->
+    <div class="news-cards">
+      <div>
+        <img src="img/ver-centroamerica-el-salvador-sitio-arqueológico-san-andres-04.jpg" alt="" />
+        <h3>FUNDAR</h3>
+        <p>FUNDAR es la Fundación Nacional de Arqueología de El Salvador, el único organismo no gubernamental en el país dedicado a la conservación, protección e investigación de la arqueología salvadoreña.
+        </p>
+        <a href="http://www.fundar.org.sv/" target="_blank">Ir a <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="img/img_jmarting_20200304-131205_imagenes_lv_terceros_numero_cero_abaco-k1TD-U473965361617V8H-992x558@LaVanguardia-Web.jpg" alt="" />
+        <h3>Historia</h3>
+        <p>Disciplina que estudia y expone, de acuerdo con determinados principios y métodos, los acontecimientos y hechos que pertenecen al tiempo pasado y que constituyen el desarrollo de la humanidad desde sus orígenes hasta el momento presente.
+        </p>
+        <a href="https://www.historyplay.tv/sv/" target="_blank" >Ir a <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="img/space.jpg" alt="" />
+        <h3>Ingenieria Aeroespacial</h3>
+        <p>Space Exploration Technologies Corp., cuyo nombre comercial es SpaceX, es una empresa estadounidense de transporte aeroespacial fundada en 2002 por Elon Musk, quien es también cofundador de PayPal, CEO y presidente​ de Tesla Motors, SolarCity, Hyperloop, The Boring Company, Neuralink y OpenAI.
+        </p>
+        <a href="https://www.spacex.com/" target="_blank">Ir a <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="img/95742078_1444743625729943_1179381299173916672_n.jpg" alt="" />
+        <h3>Diversion</h3>
+        <p>Bar Medieval el mejor ambiente de San Salvador, especialidad en Mariscos y Comida Mexicana, todos los viernes y sábado a partir de las 9 pm música en vivo.
+        </p>
+        <a href="https://www.facebook.com/bmedieval/" target="_blank">Ir a <i class="fas fa-angle-double-right"></i></a>
+      </div>
+    </div>
+
+    <!-- third card -->
+    <section class="cards-banner-two">
+      <div class="content">
+        <h2>UTEC</h2>
+        <!-- lorem 30 -->
+        <p>La Universidad Tecnológica de El Salvador es un centro de educación superior de El Salvador, conocida como UTEC o "la tecno", propiedad de una sociedad de capital privado. </p>
+        <a href="https://www.utec.edu.sv/" target="_blank"  class="btn">Conoce más<i class="fas fa-chevron-right"></i></a>
+      </div>
+    </section>
+
+    <!-- Follow -->
+    <section class="social">
+      <p>Follow Arqueólogos & Antropólogos</p>
+      <div class="links">
+        <a href="https://facebook.com">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://linkdin.com">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer Links -->
+  <div class="footer-links">
+    <div class="footer-container">
+      <ul>
+        <li>
+          <a href="#">
+            <h3>Informacion</h3>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/channel/UCmeQ-MciDYuIYcqESqnl07A?view_as=subscriber">Web site</a>
+        </li>
+        <li>
+          <a href="index.html">Inicio</a>
+        </li>
+        <li>
+          <a href="#">Acerca de</a>
+        </li>
+        <li>
+          <a href="#">Contactanos</a>
+        </li>
+       
+       
+      </ul>
+      <ul>
+        <li>
+          <a href="#">
+            <h3>Informacion</h3>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/channel/UCmeQ-MciDYuIYcqESqnl07A?view_as=subscriber">Web site</a>
+        </li>
+        <li>
+          <a href="index.html">Inicio</a>
+        </li>
+        <li>
+          <a href="#">Acerca de </del></a>
+        </li>
+        <li>
+          <a href="#">Contactanos</a>
+    
+      </ul>
+      <ul>
+        <li>
+          <a href="#">
+            <h3>Informacion</h3>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/channel/UCmeQ-MciDYuIYcqESqnl07A?view_as=subscriber">Web site</a>
+        </li>
+        <li>
+          <a href="index.html">Inicio</a>
+        </li>
+        <li>
+          <a href="#">Acerca de</a>
+        </li>
+        <li>
+          <a href="#">Contactanos</a>
+        </li>
+      
+      </ul>
+      <ul>
+        <li>
+          <a href="#">
+            <h3>Informacion</h3>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/channel/UCmeQ-MciDYuIYcqESqnl07A?view_as=subscriber">Web site</a>
+        </li>
+        <li>
+          <a href="index.html">Inicio</a>
+        </li>
+        <li>
+          <a href="#">Acerca de</a>
+        </li>
+        <li>
+          <a href="#">Contactanos</a>
+        </li>
+       
+      </ul>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <h3>Socios Arqueologos & Antropologos Copyright 2020</h3>
+  </footer>
+
+  <!-- Scroll Reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main.js"></script>
+  <script>
+  </script>
+</body>
+
+</html>
